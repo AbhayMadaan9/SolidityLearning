@@ -6,20 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "IncAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getage",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,15 +26,22 @@
 			},
 			{
 				"inputs": [],
-				"name": "getname",
+				"name": "count",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -57,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Identiy.sol": "Identity"
+			"Loops.sol": "Loops"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -71,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Identiy.sol": {
-			"keccak256": "0xa7f8a699768bce6d1d7346651250c7a5805e699784ab4dbf4f599c9cbc903bf8",
-			"license": "SEE LICENSE IN LICENSE",
+		"Loops.sol": {
+			"keccak256": "0x42c9cdf0f3a1300a26abb692014498961a4e9a88ccada9d2d2ebc942cefc3993",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://54afce906e36a5543af6ac4cd82530f5b4a475a39136cf29677fda84ced96bc3",
-				"dweb:/ipfs/QmQghNwUqPrao963nwzgog51mvPzKYQWVqi9AH8nGjQH36"
+				"bzz-raw://cefc1e0fd298b50967418fbc8650916dace721b68995556825ba7790fd332330",
+				"dweb:/ipfs/QmeoDw36k2RSfjT3iP4mofHPnidSDLm1tTeoeNtRq77zHe"
 			]
 		}
 	},
